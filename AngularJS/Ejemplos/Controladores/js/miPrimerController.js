@@ -10,7 +10,13 @@ angular.module('controladores',[]).controller('MiPrimerController', function($sc
   $scope.resultado = '';
 
   $scope.concatenar = function() {
-    $scope.resultado = $scope.fecha + '\n'+ $scope.valor1;
+    $scope.resultado = $scope.fecha + '*******' + $scope.valor1;
 
+    $scope.valor2.push($scope.valor1);
+
+  };
+
+  $scope.limpiar = function() {
+    $scope.valor2 = [];
   };
 });

@@ -28,10 +28,27 @@
   <input type=number ng-model=valor1></input>
   <br>
   <input type="button" ng-click=concatenar() value="Concatenar"></input>
+  <input type="button" ng-click=limpiar() value="Limpiar"></input>
   <br>
   <label>Resultado:</label>
   {{resultado}}
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+  <table>
+    <tr ng-repeat="item in valor2 track by $index">
+      <td>Valor</td>
+      <td>{{item}}</td>
+
+    </tr>
+
+  </table>
 </div>
+
+
 <body>
 
 
