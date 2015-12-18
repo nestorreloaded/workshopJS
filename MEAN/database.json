@@ -1,0 +1,7 @@
+{
+    "driver": "mysql",
+    "user": "laboratorio",
+    "database": "laboratorio",
+    "password": "gugler",
+    "host" : "localhost"
+ }
