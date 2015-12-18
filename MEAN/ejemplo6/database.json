@@ -1,0 +1,7 @@
+{
+    "driver": "mysql",
+    "host": "localhost",
+    "user": "ejemplo6",
+    "database": "workshop_js",
+    "password": "ejemplo6"
+}
